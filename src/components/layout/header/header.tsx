@@ -23,17 +23,17 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-end gap-2">
               <Image
-                src="/images/logo-black.svg"
+                src="/images/logo.png"
                 className="block dark:hidden"
-                alt="AiStarterKit Logo"
+                alt="ZynexAI Logo"
                 width={180}
                 height={30}
               />
-
+              <span className="text-xl font-bold ml-2">ZynexAI</span>
               <Image
-                src="/images/logo-white.svg"
+                src="/images/logo.png"
                 className="hidden dark:block"
-                alt="AiStarterKit Logo"
+                alt="ZynexAI Logo"
                 width={180}
                 height={30}
               />
