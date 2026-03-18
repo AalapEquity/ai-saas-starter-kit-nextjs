@@ -23,7 +23,6 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-end gap-2">
              <span className="text-2xl font-bold">ZynexAI</span>
-              </span>
             </Link>
           </div>
 
